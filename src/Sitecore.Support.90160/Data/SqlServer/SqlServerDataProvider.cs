@@ -21,7 +21,7 @@
     using System.IO;
     using System.Threading;
 
-    public class SqlServerDataProvider : Sitecore.Data.DataProviders.Sql.SqlDataProvider
+    public class SqlServerDataProvider : Sitecore.Support.Data.DataProviders.Sql.SqlDataProvider
     {
         /// <summary>
         /// The _blob set locks.
